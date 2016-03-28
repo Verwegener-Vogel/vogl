@@ -14,7 +14,7 @@ extraction of the filter was easy after removal of the webcam casing.
 Supposedly, a more expensive webcam may be harder to modify.
 
 ###Used hardware
-|Hardware|Requirement|Price|Source|
+|Hardware|Requirement|Price|My Source|
 |--------|-----------|----:|------|
 |Embedded board|Low power usage, able of running Linux, GPIO, USB host|from $40 upwards||
 |USB webcam|Must be supported by Video4Linux|$3|Aliexpress|
@@ -23,6 +23,8 @@ Supposedly, a more expensive webcam may be harder to modify.
 |rechargable lithium batteries|Scaled according to total power consumption||Old RF-toys or mobile phones|
 |step up converter|Should ouput a clean voltage from the solar charger with high efficiency|$5|Aliexpress|
 |LiIon charger|Could be done with basic parts|$20|https://www.adafruit.com/products/390|
+|IR Led||$1 for 5|Aliexpress|
+|Resistor|Scaled according to your Vbus|parts box|
 
 ###Prototype
 The prototype is aimed at my local birds. The nest was used by a [great tit](https://en.wikipedia.org/wiki/Great_tit) last year.
@@ -36,8 +38,6 @@ The prototype is aimed at my local birds. The nest was used by a [great tit](htt
 
 Note: Power consumption varies between idling, using the integrated WiFi and booting up. I tried to get 
 numbers for idling with WiFi turned on.
-
-Your battery needs to be scaled according to the used board.
 
 ###Power consumption of parts
 (to be measured)
