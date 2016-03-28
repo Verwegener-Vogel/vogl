@@ -16,7 +16,7 @@ Supposedly, a more expensive webcam may be harder to modify.
 ###Used hardware
 |Hardware|Requirement|Price|Source|
 |--------|-----------|----:|------|
-|Embedded board|Low power usage, able of running Linux, GPIO, USB host|from 40$ upward||
+|Embedded board|Low power usage, able of running Linux, GPIO, USB host|from $40 upwards||
 |USB webcam|Must be supported by Video4Linux|$3|Aliexpress|
 |PIR sensor||$2|Aliexpress|
 |Solar Panel|Scaled according to total power consumption||Remains from other projects|
