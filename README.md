@@ -47,3 +47,12 @@ numbers for idling with WiFi turned on.
 
 ###Schematic
 ![Vogl Schematic](https://github.com/barde/vogl/raw/master/schematic.png)
+
+###Naming
+Vogl is a [recursive acronym](https://en.wikipedia.org/wiki/Recursive_acronym) for
+**V**ogl
+**O**bservation
+**G**aining
+**L**aboratory
+and also means *bird* in German despite missing a vowel. For completeness, the correct wording
+would be *Vogel*.
