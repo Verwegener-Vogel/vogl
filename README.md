@@ -53,7 +53,7 @@ numbers for idling with WiFi turned on.
 Smells like victory! A picture of the first complete prototype working on solar power. The red LED was installed for debugging
 purposes as I my eyes do not perceive the IR leds.
 
-![Vogl Prototype](https://github.com/barde/vogl/raw/vogl_protoype_setup.jpg)
+![Vogl Prototype](https://github.com/barde/vogl/raw/master/vogl_protoype_setup.jpg)
 
 ###Software Installalation and Setup###
 This installation instruction is based on an Intel Edison with [Ubilinux](http://www.emutexlabs.com/ubilinux) flashed. 
