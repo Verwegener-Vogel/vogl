@@ -45,6 +45,8 @@ numbers for idling with WiFi turned on.
 ###Overview
 ![Vogl Overview](https://github.com/barde/vogl/raw/master/overview.png)
 
+Note: This overview does not contain the multi LED setup and the transistor. This overview is just for.. well overview.
+
 ###Schematic
 ![Vogl Schematic](https://github.com/barde/vogl/raw/master/schematic.png)
 
