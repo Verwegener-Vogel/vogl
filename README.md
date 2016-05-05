@@ -48,6 +48,23 @@ numbers for idling with WiFi turned on.
 ###Schematic
 ![Vogl Schematic](https://github.com/barde/vogl/raw/master/schematic.png)
 
+###Prototype###
+
+Smells like victory! A picture of the first complete prototype working on solar power. The red LED was installed for debugging
+purposes as I my eyes do not perceive the IR leds.
+
+![Vogl Prototype](https://github.com/barde/vogl/raw/vogl_protoype_setup.jpg)
+
+###Software Installalation and Setup###
+This installation instruction is based on an Intel Edison with [Ubilinux](http://www.emutexlabs.com/ubilinux) flashed. 
+According to your used board you should adapt the following commands to suit your needs.
+
+```
+echo 'export PYTHONPATH=$PYTHONPATH:$(dirname $(find /usr/local -name mraa.py))' | sudo tee -a /etc/profile
+```
+for setting the correct PYTHONPATH for the libmraa module for every user on the Edison.
+
+
 ###Naming
 Vogl is a [recursive acronym](https://en.wikipedia.org/wiki/Recursive_acronym) for
 **V**ogl
