@@ -32,15 +32,26 @@ The prototype is aimed at my local birds. The nest was used by a [great tit](htt
 ###Power consumption of various embedded boards
 |Board|Consumption in mW|Source|
 |-----|----------:|------|
-|Arduino Yun|1200|http://playground.arduino.cc/Hardware/Yun#power_consumption|
+|Arduino Yun|~1200|http://playground.arduino.cc/Hardware/Yun#power_consumption|
 |Raspberry Pi 3|2900|https://www.raspberrypi.org/magpi/raspberry-pi-3-specs-benchmarks/|
-|Intel Edison|680|https://www.adafruit.com/datasheets/EdisonDatasheet.pdf|
+|Intel Edison|35 in standby|https://www.adafruit.com/datasheets/EdisonDatasheet.pdf|
 
 Note: Power consumption varies between idling, using the integrated WiFi and booting up. I tried to get 
 numbers for idling with WiFi turned on.
 
-###Power consumption of parts
-(to be measured)
+###Power consumption of prototype setup with solar augmentation
+
+A simpliefied setup with a rechargable lithium battery with 7.4Wh at 3,7V is able to power the Edison in its breakout
+board configuration for roughly 58 hours resulting in a net total of 128mW. The battery was charged in between by 
+a solar panel.
+
+This is not in line with the power consumption from the datasheet. There is no way the additional led on the buck
+regulator and charging circuit could be responsible. The efficiency of the regulator is claimed to be >90%.
+
+According to [this source](https://scivision.co/measured-power-consumption-of-intel-edison/) the Edison without any
+energy harvesting is pulling more power: up to 944mW!
+
+A possible explanation could be the active WiFi or the used firmware (Ubilinux).
 
 ###Overview
 ![Vogl Overview](https://github.com/barde/vogl/raw/master/overview.png)
