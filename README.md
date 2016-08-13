@@ -1,6 +1,8 @@
 # vogl
 ##Solar Powered Embedded Micropower Bird Youth Surveillance
 
+![great tit watching you!](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Great_Tit_%28Parus_major%29_1.jpg/800px-Great_Tit_%28Parus_major%29_1.jpg)
+
 ###Aim 
 Watch breeding birds illuminated by IR leds. Trigger camera shots or short films on movement. Whole setup is
 self powered by a solar panel. Low power consumption is a big priority.
