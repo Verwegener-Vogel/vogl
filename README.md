@@ -88,3 +88,6 @@ Vogl is a [recursive acronym](https://en.wikipedia.org/wiki/Recursive_acronym) f
 **L**aboratory
 and also means *bird* in German despite missing a vowel. For completeness, the correct wording
 would be *Vogel*.
+
+### Publisher
+Part of the projects which are created by: Verwegener Vogel e.V. , a society of bird-loving-people 
